@@ -21,8 +21,11 @@ Set up
 Note
 ---
 - in app.py, there is a db defined, to actually create this table, go to terminal and open python Interactive Mode with `python`:
-```from app import db
- db.create_all()
-exit()```
+```
+from app import db
+db.create_all()
+exit()
+```
+
 
 After this step, there should be db created directly in the file structure with the name defined in **'sqlite:///mydb.db'**. In this case, the database name is *mydb*, then a file named *mydb.db* appears 
